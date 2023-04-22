@@ -84,7 +84,7 @@ main {
 }
 #MainSection3 {
     grid-area: advertise2;
-    background-color: blue;
+    background-color: aqua;
 }
 @media screen and (max-width: 750px) {
     .MainNavBut {
