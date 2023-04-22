@@ -23,6 +23,10 @@
     border-radius: 30px;
     padding-bottom: 2px;
 }
+.MainNavContainer {
+    display: flex;
+    justify-content: space-between;
+}
 .MainNavContent {
     display: none;
     position: absolute;
@@ -34,9 +38,17 @@
 .MainNavBut {
     display: none;
     position: absolute;
+    font-size: 50px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, black, black, darkmagenta);
+    color: aqua;
+    border: none;
 }
 .MainNavContent {
-    padding: 20px 0px;
+    margin: 57px 0px;
+    background-color: rgba(1, 1, 1, .5);
+    width: 100%;
+    font-size: larger;
 }
 @media screen and (max-width: 750px) {
     .MainNavBut {
